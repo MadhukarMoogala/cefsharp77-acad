@@ -45,6 +45,7 @@ namespace CefSharp.OffScreen.Example
         private static async void MainAsync(string cachePath, double zoomLevel)
         {
             var browserSettings = new BrowserSettings();
+           
             //Reduce rendering speed to one frame per second so it's easier to take screen shots
             browserSettings.WindowlessFrameRate = 1;
             var requestContextSettings = new RequestContextSettings { CachePath = cachePath };

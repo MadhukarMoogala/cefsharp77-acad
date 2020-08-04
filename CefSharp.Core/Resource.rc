@@ -17,7 +17,7 @@ BEGIN
         BEGIN
             VALUE "FileDescription", "CefSharp.Core"
             VALUE "FileVersion", "77.1.180"
-            VALUE "LegalCopyright", "Copyright © 2019 The CefSharp Authors"
+            VALUE "LegalCopyright", "Copyright © 2020 The CefSharp Authors"
             VALUE "ProductName", "CefSharp"
             VALUE "ProductVersion", "77.1.180"
         END

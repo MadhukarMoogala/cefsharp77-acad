@@ -97,6 +97,9 @@
     <IntDir>obj\$(Platform)\$(Configuration)\</IntDir>
     <SourcePath>$(SolutionDir)packages\$(CefSdkVer)\CEF;$(SourcePath)</SourcePath>
   </PropertyGroup>
+  <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
