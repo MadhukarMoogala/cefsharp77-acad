@@ -34,6 +34,8 @@ CefSharp.Core/x64/Release
 CefSharp/Win32/Release
 CefSharp/x64/Release
 CefSharp.BrowserSubprocess.lib
+ACADCefTest/bin
+ACADCefTest/obj
 Win32/Release
 x64/Release
 Win32/Release
